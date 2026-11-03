@@ -6737,8 +6737,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.primary.taro_xiaomi",
-    stem: "audio.primary.taro",
+    name: "audio.primary.taro",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -6778,9 +6777,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     relative_install_path: "hw",
     prefer: true,
-    overrides: [
-        "audio.primary.taro",
-    ],
     soc_specific: true,
 }
 
@@ -7155,7 +7151,7 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libbase",
                 "libbinder",
-                "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
+                "vendor.xiaomi.hardware.displayfeature@1.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -9368,7 +9364,7 @@ cc_prebuilt_library_shared {
                 "libhidltransport",
                 "libhidlbase",
                 "libgui_vendor",
-                "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
+                "vendor.xiaomi.hardware.displayfeature@1.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -9990,7 +9986,7 @@ cc_prebuilt_library_shared {
                 "libexpat",
                 "liblog",
                 "libar-pal",
-                "audio.primary.taro_xiaomi",
+                "audio.primary.taro",
                 "libc++",
                 "libc",
                 "libm",
@@ -11374,7 +11370,7 @@ cc_prebuilt_library_shared {
                 "libexpat",
                 "liblog",
                 "libar-pal",
-                "audio.primary.taro_xiaomi",
+                "audio.primary.taro",
                 "libc++",
                 "libc",
                 "libm",
@@ -11969,8 +11965,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsdedrm_xiaomi",
-    stem: "libsdedrm",
+    name: "libsdedrm",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -11996,9 +11991,6 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
-    overrides: [
-        "libsdedrm",
-    ],
     soc_specific: true,
 }
 
@@ -12029,8 +12021,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsdm-disp-vndapis_xiaomi",
-    stem: "libsdm-disp-vndapis",
+    name: "libsdm-disp-vndapis",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -12056,15 +12047,11 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
-    overrides: [
-        "libsdm-disp-vndapis",
-    ],
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
-    name: "libsdmcore_xiaomi",
-    stem: "libsdmcore",
+    name: "libsdmcore",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -12077,7 +12064,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libhidltransport",
                 "libhidlbase",
-                "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
+                "vendor.xiaomi.hardware.displayfeature@1.0",
                 "liblog",
                 "libcutils",
                 "libutils",
@@ -12096,15 +12083,11 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
-    overrides: [
-        "libsdmcore",
-    ],
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
-    name: "libsdmextension_xiaomi",
-    stem: "libsdmextension",
+    name: "libsdmextension",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -12133,15 +12116,11 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
-    overrides: [
-        "libsdmextension",
-    ],
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
-    name: "libsdmutils_xiaomi",
-    stem: "libsdmutils",
+    name: "libsdmutils",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -12165,9 +12144,6 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
-    overrides: [
-        "libsdmutils",
-    ],
     soc_specific: true,
 }
 
@@ -13624,35 +13600,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
-    stem: "vendor.xiaomi.hardware.displayfeature@1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.quickcamera@1.0",
     owner: "xiaomi",
     strip: {
@@ -14418,7 +14365,7 @@ cc_prebuilt_binary {
                 "libutils-shim",
                 "libutils-v32",
                 "libhidltransport",
-                "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
+                "vendor.xiaomi.hardware.displayfeature@1.0",
                 "libbinder",
                 "libhardware",
                 "libhistogram",
@@ -14492,7 +14439,7 @@ cc_prebuilt_binary {
                 "libhardware",
                 "libhidlbase",
                 "libhidltransport",
-                "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
+                "vendor.xiaomi.hardware.displayfeature@1.0",
                 "libc++",
                 "libc",
                 "libm",

@@ -841,7 +841,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.policy.mfl \
     com.qualcomm.mcx.policy.xr \
     com.qualcomm.qti.mcx.usecase.extension \
-    audio.primary.taro_xiaomi \
+    audio.primary.taro \
     camera.qcom \
     camera.xiaomi \
     com.qti.chi.override \
@@ -1008,12 +1008,12 @@ PRODUCT_PACKAGES += \
     libremosaic_wrapper \
     libremosaiclib \
     libresampler \
-    libsdedrm_xiaomi \
+    libsdedrm \
     libsdk_sr \
-    libsdm-disp-vndapis_xiaomi \
-    libsdmcore_xiaomi \
-    libsdmextension_xiaomi \
-    libsdmutils_xiaomi \
+    libsdm-disp-vndapis \
+    libsdmcore \
+    libsdmextension \
+    libsdmutils \
     libsdr2hdr \
     libsfeShiftExtrapolation \
     libsndcardparser \
@@ -1062,7 +1062,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0_vendor \
-    vendor.xiaomi.hardware.displayfeature@1.0_vendor \
     vendor.xiaomi.hardware.quickcamera@1.0 \
     vendor_lib_rfsa_adsp_bm2n00_bin \
     vendor_lib_rfsa_adsp_bm2n01_bin \
