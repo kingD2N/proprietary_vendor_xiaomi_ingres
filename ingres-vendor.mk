@@ -323,7 +323,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/sceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sceneDetection.xml \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/siq_ocl_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/siq_ocl_cache \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/sr_params.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sr_params.xml \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/camera/st_license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/st_license.lic \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/superiq_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/superiq_model \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/xiaomi/dualbokehjpegsnapshot.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomi/dualbokehjpegsnapshot.json \
@@ -942,67 +941,67 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
     vendor.xiaomi.hardware.quickcamera@1.0 \
-    bm2n00 \
-    bm2n01 \
-    bm2n02 \
-    bm2n03 \
-    bm2n04 \
-    bm2n05 \
-    bm2n06 \
-    bm2n07 \
-    bm2n08 \
-    bm2n09 \
-    bm2n10 \
-    bm2n11 \
-    capi_elus_rx \
-    capi_elus_tx \
-    hrtf5c \
-    libCalculator_skel \
-    libDspIOProxy_skel \
-    libMIAIHDR_skel \
-    libQ6MSFR_manager_skel \
-    libQnnHtpAltPrepSkel \
-    libQnnHtpAltPrepV69Skel \
-    libQnnHtpV69 \
-    libSnpeHtpV69Skel \
-    libVppFrcQnnHtp \
-    libVppQnnHtp \
-    libapn_dsp_skel \
-    libarcsoft_beauty_hvx_skel \
-    libbitml_nsp_v2_skel \
-    libcalculator_skel \
-    libcvpdsp_2_1 \
-    libdspCV_skel \
-    libdsp_streamer_binning \
-    libdsp_streamer_qvrcam_receiver \
-    libevadsp_3_0 \
-    libeye_tracking_dsp_sample_skel \
-    libfastcvadsp \
-    libfastcvdsp_skel \
-    libhalide_hexagon_remote_skel \
-    libhdr_cdsp_skel \
-    libmialgo_basic_cdsp_skel \
-    libmialgo_ldc_cdsp_skel \
-    libmialgo_low_light_align_cdsp_skel \
-    libmialgo_mfnr_cdsp_skel \
-    libmialgo_pureview_cdsp_skel \
-    libmialgo_rfs_cdsp_skel \
-    libmialgo_sfnr_cdsp_skel \
-    libmobilenet_dsp_frc \
-    libmobilenet_dsp_frc_networks \
-    libqvr_cam_dsp_driver_skel \
-    libqvr_dsp_driver_skel \
-    libscveT2T_skel \
-    libtracker_6dof_skel_8250 \
-    libtracker_6dof_skel_8350 \
-    libvpp_ais_networks \
-    libvpp_vqa_networks \
-    libvpt_action_recognition \
-    misound_karaoke_res \
-    misound_karaokemix_res \
-    misound_res_headphone \
-    misound_res_spk \
-    misound_res_spk4ch \
+    vendor_lib_rfsa_adsp_bm2n00_bin \
+    vendor_lib_rfsa_adsp_bm2n01_bin \
+    vendor_lib_rfsa_adsp_bm2n02_bin \
+    vendor_lib_rfsa_adsp_bm2n03_bin \
+    vendor_lib_rfsa_adsp_bm2n04_bin \
+    vendor_lib_rfsa_adsp_bm2n05_bin \
+    vendor_lib_rfsa_adsp_bm2n06_bin \
+    vendor_lib_rfsa_adsp_bm2n07_bin \
+    vendor_lib_rfsa_adsp_bm2n08_bin \
+    vendor_lib_rfsa_adsp_bm2n09_bin \
+    vendor_lib_rfsa_adsp_bm2n10_bin \
+    vendor_lib_rfsa_adsp_bm2n11_bin \
+    vendor_lib_rfsa_adsp_capi_elus_rx_so \
+    vendor_lib_rfsa_adsp_capi_elus_tx_so \
+    vendor_lib_rfsa_adsp_hrtf5c_bin \
+    vendor_lib_rfsa_adsp_libCalculator_skel_so \
+    vendor_lib_rfsa_adsp_libDspIOProxy_skel_so \
+    vendor_lib_rfsa_adsp_libMIAIHDR_skel_so \
+    vendor_lib_rfsa_adsp_libQ6MSFR_manager_skel_so \
+    vendor_lib_rfsa_adsp_libQnnHtpAltPrepSkel_so \
+    vendor_lib_rfsa_adsp_libQnnHtpAltPrepV69Skel_so \
+    vendor_lib_rfsa_adsp_libQnnHtpV69_so \
+    vendor_lib_rfsa_adsp_libSnpeHtpV69Skel_so \
+    vendor_lib_rfsa_adsp_libVppFrcQnnHtp_so \
+    vendor_lib_rfsa_adsp_libVppQnnHtp_so \
+    vendor_lib_rfsa_adsp_libapn_dsp_skel_so \
+    vendor_lib_rfsa_adsp_libarcsoft_beauty_hvx_skel_so \
+    vendor_lib_rfsa_adsp_libbitml_nsp_v2_skel_so \
+    vendor_lib_rfsa_adsp_libcalculator_skel_so \
+    vendor_lib_rfsa_adsp_libcvpdsp_2_1_so \
+    vendor_lib_rfsa_adsp_libdspCV_skel_so \
+    vendor_lib_rfsa_adsp_libdsp_streamer_binning_so \
+    vendor_lib_rfsa_adsp_libdsp_streamer_qvrcam_receiver_so \
+    vendor_lib_rfsa_adsp_libevadsp_3_0_so \
+    vendor_lib_rfsa_adsp_libeye_tracking_dsp_sample_skel_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_so \
+    vendor_lib_rfsa_adsp_libfastcvdsp_skel_so \
+    vendor_lib_rfsa_adsp_libhalide_hexagon_remote_skel_so \
+    vendor_lib_rfsa_adsp_libhdr_cdsp_skel_so \
+    vendor_lib_rfsa_adsp_libmialgo_basic_cdsp_skel_so \
+    vendor_lib_rfsa_adsp_libmialgo_ldc_cdsp_skel_so \
+    vendor_lib_rfsa_adsp_libmialgo_low_light_align_cdsp_skel_so \
+    vendor_lib_rfsa_adsp_libmialgo_mfnr_cdsp_skel_so \
+    vendor_lib_rfsa_adsp_libmialgo_pureview_cdsp_skel_so \
+    vendor_lib_rfsa_adsp_libmialgo_rfs_cdsp_skel_so \
+    vendor_lib_rfsa_adsp_libmialgo_sfnr_cdsp_skel_so \
+    vendor_lib_rfsa_adsp_libmobilenet_dsp_frc_so \
+    vendor_lib_rfsa_adsp_libmobilenet_dsp_frc_networks_so \
+    vendor_lib_rfsa_adsp_libqvr_cam_dsp_driver_skel_so \
+    vendor_lib_rfsa_adsp_libqvr_dsp_driver_skel_so \
+    vendor_lib_rfsa_adsp_libscveT2T_skel_so \
+    vendor_lib_rfsa_adsp_libtracker_6dof_skel_8250_so \
+    vendor_lib_rfsa_adsp_libtracker_6dof_skel_8350_so \
+    vendor_lib_rfsa_adsp_libvpp_ais_networks_so \
+    vendor_lib_rfsa_adsp_libvpp_vqa_networks_so \
+    vendor_lib_rfsa_adsp_libvpt_action_recognition_so \
+    vendor_lib_rfsa_adsp_misound_karaoke_res_bin \
+    vendor_lib_rfsa_adsp_misound_karaokemix_res_bin \
+    vendor_lib_rfsa_adsp_misound_res_headphone_bin \
+    vendor_lib_rfsa_adsp_misound_res_spk_bin \
+    vendor_lib_rfsa_adsp_misound_res_spk4ch_bin \
     vendor.xiaomi.hardware.quickcamera@1.0-service.xml \
     batterysecret \
     vendor.qti.camera.provider@2.7-service_64 \
