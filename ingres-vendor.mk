@@ -1008,12 +1008,7 @@ PRODUCT_PACKAGES += \
     libremosaic_wrapper \
     libremosaiclib \
     libresampler \
-    libsdedrm \
     libsdk_sr \
-    libsdm-disp-vndapis \
-    libsdmcore \
-    libsdmextension \
-    libsdmutils \
     libsdr2hdr \
     libsfeShiftExtrapolation \
     libsndcardparser \
@@ -1130,7 +1125,6 @@ PRODUCT_PACKAGES += \
     displayfeature \
     vendor.qti.camera.provider@2.7-service_64 \
     vendor.qti.hardware.AGMIPC@1.0-service \
-    vendor.qti.hardware.display.composer-service \
     vendor.xiaomi.hardware.displayfeature@1.0-service \
     vendor.xiaomi.hardware.quickcamera@1.0-service \
     vendor.xiaomi.sensor.citsensorservice@2.0-service \
