@@ -12108,3 +12108,20 @@ cc_prebuilt_binary {
     relative_install_path: "hw",
     soc_specific: true,
 }
+
+cc_prebuilt_library_shared {
+    name: "libsnpe_loader",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libsnpe_loader.so"],
+        },
+    },
+    check_elf_files: false,
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
